@@ -8,6 +8,7 @@ h1{
   margin-top: 30px;
   margin-left: 30px;
   padding-top: 30px;
+  font-size: 40px;
 }
 /* to make rows and columns use float and clear */
 .row{
@@ -17,7 +18,7 @@ h1{
 }
 .col{
   width: 50%;
-  height: 500px;
+  height: 900px;
   float: left;
   /* background: orange; */
   /* border: 2px solid red; */
@@ -30,15 +31,15 @@ h1{
 }
 
 .chocolates{
-  width: 100%;
+  width: auto;
   height: auto;
+  padding-left: auto;
 }
 
-.nameChocolate{
-  background: gray;
-  color: whitesmoke;
-  margin-bottom: 30px;
+.nameCreamyMilk{
 
+  color: red;
+  margin-bottom: 30px;
 }
 
 .priceChocolate{
@@ -49,12 +50,14 @@ h1{
 .ingredients{
   color: blue;
   margin-bottom: 30px;
+  font-size: 15
 }
 
 .description{
   font-size: 18px;
   line-height: 25px;
   width: 60%;
+
 }
 
 .navList{
@@ -65,4 +68,19 @@ h1{
 
 .logo{
   margin-bottom: 20px;
+}
+
+.nameCreamyCaramel{
+  color: red;
+  line-height: 25px;
+}
+
+.nameDarkBlock{
+  color: red;
+  line-height: 25px;
+}
+
+.nameAlmondGold{
+  color: red;
+  line-height: 25px;
 }

@@ -34,6 +34,8 @@ h1{
   width: auto;
   height: auto;
   padding-left: auto;
+  /* limits the height of what the image can go to  */
+  max-height: 300px;
 }
 
 .nameCreamyMilk{
@@ -83,4 +85,27 @@ h1{
 .nameAlmondGold{
   color: red;
   line-height: 25px;
+}
+
+.cake{
+  width: 300px;
+  height: 300px;
+}
+
+.banner{
+  width: auto;
+  height: auto;
+  max-height: 500px; /*restricting the height not to exceed */
+  margin: 50px auto; /* to center  */
+  display: block; /*to change inline element to block type*/
+}
+
+.bannerText1{
+  color: pink;
+  margin-left: 20px;
+
+}
+
+.bannerText2{
+
 }
